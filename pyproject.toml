@@ -1,0 +1,10 @@
+[project]
+name = "contabilidad"
+version = "0.1.0"
+description = "CLI de contabilidad personal"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []  # añade si usas libs (python-dateutil, etc.)
+
+[project.scripts]
+contabilidad = "contabilidad.cli.main:main"
